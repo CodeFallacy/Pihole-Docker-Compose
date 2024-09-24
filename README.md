@@ -2,7 +2,7 @@
 
 This is a `docker-compose.yml` file for Pi-hole using `macvlan` network driver to manually assign an LAN ip to our Pi-hole docker container and free up the host's port 80. You can follow the video tutorial here: https://youtu.be/qMNMQkGUQkk
 
-> [!NOTE]  
+> [!IMPORTANT]  
 > This will only work with a wired ethernet connection!
 
 ```yml
